@@ -53,7 +53,7 @@ const MonumentsSlider = ({ homeSliderData }) => {
           {homeSliderData &&
             homeSliderData.map((item) => (
               <div key={Math.random() * 100} className="cursor-pointer">
-                <img src={item.img.url} alt="img"  />
+                <img src={item.img.url} alt="img" />
                 <h5 className="font-medium h-12 text-black text-sm sm:text-base bg-white text-center bottom-0">
                   {router.locale === "en" ? item.titleInEnglish : item.title}
                 </h5>

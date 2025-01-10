@@ -30,9 +30,14 @@
     },
 
     {
-      "title": "अधिनियम आणि कायदे",
+      "title": "अधिनियम आणि कायदे 420",
       "value": "Acts",
       "slug": "/acts_and_legislation"
+    },
+    {
+      "title": "अधिकारी/कर्मचाऱ्यांची ज्येष्ठता सूची",
+      "value": "Employee",
+      "slug": "/employee_list"
     },
     {
       "title": "नागरिकांची सनद",
@@ -91,6 +96,13 @@
       "value": "Acts",
       "slug": "/acts_and_legislation"
     },
+
+    {
+      "title": "अधिकारी/कर्मचाऱ्यांची ज्येष्ठता सूची ",
+      "value": "Employee",
+      "slug": "/employee_list"
+    },
+
     {
       "title": "नागरिकांची सनद",
       "value": "Citizen",
@@ -829,18 +841,24 @@
   "Vacancy-Notify": "पद भरती 2023-24 (तपशील पाहा)",
   "Click-to-fill-form": "फॉर्म भरण्यासाठी क्लिक करा",
   "Recruitment": "भरती",
-  "Link-to-Download-Admit-Card":"प्रवेश पत्र डाउनलोड करण्यासाठी लिंक",
-  "Link-to-Download-Admit-Card-24-2-24":"24.02.2024 परीक्षेसाठी प्रवेश पत्र डाउनलोड करण्यासाठी लिंक",
-  "helpline-heading":"उमेदवारांना प्रवेशपत्रासंबंधित अडचणीत असल्यास हेल्पलाईन",
-  "helpline-desc":"उमेदवारांना कॉल लेटर डाउनलोड करण्यासाठी येणाऱ्या समस्यांसाठी IBPS ची लिंक व हेल्प लाईन नंबर्स",
-  "link":"लिंक",
-  "help-line":"हेल्प लाईन",
+  "Link-to-Download-Admit-Card": "प्रवेश पत्र डाउनलोड करण्यासाठी लिंक",
+  "Link-to-Download-Admit-Card-24-2-24": "24.02.2024 परीक्षेसाठी प्रवेश पत्र डाउनलोड करण्यासाठी लिंक",
+  "helpline-heading": "उमेदवारांना प्रवेशपत्रासंबंधित अडचणीत असल्यास हेल्पलाईन",
+  "helpline-desc": "उमेदवारांना कॉल लेटर डाउनलोड करण्यासाठी येणाऱ्या समस्यांसाठी IBPS ची लिंक व हेल्प लाईन नंबर्स",
+  "link": "लिंक",
+  "help-line": "हेल्प लाईन",
   "recruitment-folder": [
-    { "title": "माहिती पुस्तिका", "id": "1", "slug":"information-booklet" },
-    { "title": "निवड यादी", "id": "2", "slug":"select-list" },
-    { "title": "उमेदवारची गुणांनुक्रमे यादी", "id": "3", "slug":"basic-score" },
-    { "title": "जाहिरात व प्रसिद्धीपत्रके", "id": "4", "slug":"advertisement-circulars" }
-    
+    { "title": "माहिती पुस्तिका", "id": "1", "slug": "information-booklet" },
+    { "title": "निवड यादी", "id": "2", "slug": "select-list" },
+    {
+      "title": "उमेदवारची गुणांनुक्रमे यादी",
+      "id": "3",
+      "slug": "basic-score"
+    },
+    {
+      "title": "जाहिरात व प्रसिद्धीपत्रके",
+      "id": "4",
+      "slug": "advertisement-circulars"
+    }
   ]
 }
-

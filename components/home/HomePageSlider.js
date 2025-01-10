@@ -10,34 +10,36 @@ import "swiper/css/autoplay";
 
 const HomePageSlider = ({ coverData }) => {
   return (
-    <div className="-z-50  ">
-      <Swiper
-        modules={[Autoplay, Scrollbar, A11y, EffectFade]}
-        slidesPerView={1}
-        effect={"fade"}
-        speed={1200}
-        loop
-        // arrows=true
-        autoplay={{
-          delay: 4000,
-          disableOnInteraction: false,
-        }}
-      >
-        {coverData && coverData.map((item) => (
-          <SwiperSlide  key={Math.random() * 100}>
-            <div className="h-full w-full relative">
-              <div className="">
-                <img
-                  src={item.img.url}
-                  alt=""
-                  className="w-full sm:h-[600px] xl:h-[800] 2xl:h-[900px]"
-                />
-              </div>
-            </div>
-          </SwiperSlide>
-        ))}
+    <div className="relative">
+      <div className="-z-50  ">
+        <Swiper
+          modules={[Autoplay, Scrollbar, A11y, EffectFade]}
+          slidesPerView={1}
+          effect={"fade"}
+          speed={1200}
+          loop
+          // arrows=true
+          autoplay={{
+            delay: 4000,
+            disableOnInteraction: false,
+          }}
+        >
+          {coverData &&
+            coverData.map((item) => (
+              <SwiperSlide key={Math.random() * 100}>
+                <div className="h-full w-full relative">
+                  <div className="">
+                    <img
+                      src={item.img.url}
+                      alt=""
+                      className="w-full sm:h-[600px] xl:h-[800] 2xl:h-[900px]"
+                    />
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
 
-        {/* <SwiperSlide>
+          {/* <SwiperSlide>
           <div className="h-full w-full relative">
             <div className="">
               <img
@@ -48,7 +50,8 @@ const HomePageSlider = ({ coverData }) => {
             </div>
           </div>
         </SwiperSlide> */}
-      </Swiper>
+        </Swiper>
+      </div>
     </div>
   );
 };

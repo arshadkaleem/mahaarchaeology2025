@@ -33,6 +33,7 @@
       "value": "Acts",
       "slug": "/acts_and_legislation"
     },
+
     {
       "title": "Citizen's Charter",
       "value": "Citizen",
@@ -91,12 +92,20 @@
       "value": "Acts",
       "slug": "/acts_and_legislation"
     },
+
+    {
+      "title": "Seniority List of Officers/Employees",
+      "value": "Employee",
+      "slug": "/employee_list"
+    },
+
     {
       "title": "Citizen's Charter",
       "value": "Citizen",
       "slug": "/citizen_charter"
     },
     { "title": "RTI", "value": "RTI", "slug": "/rti" },
+
     {
       "title": "Permission/Licence",
       "value": "Licence",
@@ -600,7 +609,7 @@
   "Gad Samvardhan Yojana": "Gad Samvardhan Yojana",
   "Maharashtra Vaibhav State Protected Monument Care Scheme": "Maharashtra Vaibhav State Protected Monument Care Scheme",
   "Director": "Director's Message",
-  "Awards": "Awards and Scholarships",
+  "Awards": "Awards and Scholarships ",
   "Festivals": "Festivals",
   "AdministrativeSetup": "Administrative Setup",
   "Gallery": "Gallery",
@@ -856,17 +865,24 @@
   "Vacancy-Notify": "Recruitment Advertisement 2023-24 (View detail)",
   "Click-to-fill-form": "Click to fill Form",
   "Recruitment": "Recruitment",
-  "Link-to-Download-Admit-Card":"Link to Download Admit Card",
-  "Link-to-Download-Admit-Card-24-2-24":"Link to Download Admit Card For Examination 24.02.2024",
-  "helpline-heading":"Helpline if candidates face any problem related to admit card",
-  "helpline-desc":"IBPS link and help line numbers for candidates facing problems to download call letter",
-  "link":"Link",
-  "help-line":"Help Line",
+  "Link-to-Download-Admit-Card": "Link to Download Admit Card",
+  "Link-to-Download-Admit-Card-24-2-24": "Link to Download Admit Card For Examination 24.02.2024",
+  "helpline-heading": "Helpline if candidates face any problem related to admit card",
+  "helpline-desc": "IBPS link and help line numbers for candidates facing problems to download call letter",
+  "link": "Link",
+  "help-line": "Help Line",
   "recruitment-folder": [
-    { "title": "Information Booklet", "id": "1", "slug":"information-booklet" },
-    { "title": "Select list", "id": "2", "slug":"select-list" },
-    { "title": "Basic score list", "id": "3", "slug":"basic-score" },
-    { "title": "Advertisement and Circulars", "id": "4", "slug":"advertisement-circulars" }
-    
+    {
+      "title": "Information Booklet",
+      "id": "1",
+      "slug": "information-booklet"
+    },
+    { "title": "Select list", "id": "2", "slug": "select-list" },
+    { "title": "Basic score list", "id": "3", "slug": "basic-score" },
+    {
+      "title": "Advertisement and Circulars",
+      "id": "4",
+      "slug": "advertisement-circulars"
+    }
   ]
 }
