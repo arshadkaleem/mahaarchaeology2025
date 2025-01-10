@@ -1,0 +1,872 @@
+{
+  "en": "English",
+  "mr-IN": "Marathi",
+  "change_locale": "मराठी",
+  "_commentHome": "Home page text goes here...",
+  "Welcome to React": "Welcome to React and react-i18next",
+  "links": [
+    { "title": "Home", "slug": "/" },
+    { "title": "About Us", "slug": "/aboutUs" },
+    { "title": "Monuments", "slug": "/monuments" },
+    { "title": "Museums", "slug": "/museums" },
+    {
+      "title": "Excavation & Exploration",
+      "slug": "/excavation_and_exploration"
+    },
+    { "title": "Publication", "slug": "/publications" },
+    { "title": "Gallery", "slug": "/gallery" },
+    { "title": "Schemes", "slug": "/schemes" },
+
+    { "title": "Contact Us", "slug": "/contact_us" }
+  ],
+  "subLinks": [
+    { "title": "About Us", "value": "About", "slug": "/aboutUs" },
+    { "title": "Schemes", "value": "Schemes", "slug": "/schemes" },
+    {
+      "title": "Awards and Scholarships",
+      "value": "Awards",
+      "slug": "/awards"
+    },
+    { "title": "Festivals", "value": "Festivals", "slug": "/festivals" },
+    {
+      "title": "Acts and Legislation",
+      "value": "Acts",
+      "slug": "/acts_and_legislation"
+    },
+    {
+      "title": "Citizen's Charter",
+      "value": "Citizen",
+      "slug": "/citizen_charter"
+    },
+    { "title": "RTI", "value": "RTI", "slug": "/rti" },
+    {
+      "title": "Administrative Setup",
+      "value": "Administrative",
+      "slug": "/administrative_setup"
+    },
+    {
+      "title": "Report Antiquities and Monuments",
+      "value": "antiquities",
+      "slug": "/report_antiquities_and_monuments"
+    },
+    { "title": "Monuments", "value": "Monuments", "slug": "/monuments" },
+    { "title": "Museums", "value": "Museums", "slug": "/museums" },
+    {
+      "title": "Excavations and Explorations",
+      "value": "Excavations",
+      "slug": "/excavation_and_exploration"
+    },
+    {
+      "title": "Publications",
+      "value": "Publications",
+      "slug": "/publications"
+    },
+    { "title": "Gallery", "value": "Gallery", "slug": "/gallery" },
+    {
+      "title": "Protection, Conservation and Preservation",
+      "value": "Protection",
+      "slug": "/protection_conservation_and_preservation"
+    },
+    {
+      "title": "Competition and Camps",
+      "value": "Competition",
+      "slug": "/competition_and_camps"
+    },
+    { "title": "Trainings", "value": "Trainings", "slug": "/trainings" },
+    { "title": "Dialogue", "value": "Dialogue", "slug": "/dialogue" },
+    { "title": "Contact Us", "value": "Contact", "slug": "/contact_us" }
+  ],
+
+  "subLinksLeft": [
+    { "title": "About Us", "value": "About", "slug": "/aboutUs" },
+    { "title": "Schemes", "value": "Schemes", "slug": "/schemes" },
+    {
+      "title": "Awards and Scholarships",
+      "value": "Awards",
+      "slug": "/awards"
+    },
+    { "title": "Festivals", "value": "Festivals", "slug": "/festivals" },
+    {
+      "title": "Acts and Legislation",
+      "value": "Acts",
+      "slug": "/acts_and_legislation"
+    },
+    {
+      "title": "Citizen's Charter",
+      "value": "Citizen",
+      "slug": "/citizen_charter"
+    },
+    { "title": "RTI", "value": "RTI", "slug": "/rti" },
+    {
+      "title": "Permission/Licence",
+      "value": "Licence",
+      "slug": "/licence"
+    },
+    {
+      "title": "Administrative Setup",
+      "value": "Administrative",
+      "slug": "/administrative_setup"
+    }
+  ],
+  "subLinksRight": [
+    { "title": "Monuments", "value": "Monuments", "slug": "/monuments" },
+    { "title": "Museums", "value": "Museums", "slug": "/museums" },
+    {
+      "title": "Excavations and Explorations",
+      "value": "Excavations",
+      "slug": "/excavation_and_exploration"
+    },
+    {
+      "title": "Publications",
+      "value": "Publications",
+      "slug": "/publications"
+    },
+    { "title": "Gallery", "value": "Gallery", "slug": "/gallery" },
+    {
+      "title": "Protection, Conservation and Preservation",
+      "value": "Protection",
+      "slug": "/protection_conservation_and_preservation"
+    },
+    {
+      "title": "Report Antiquities and Monuments",
+      "value": "antiquities",
+      "slug": "/report_antiquities_and_monuments"
+    },
+
+    { "title": "Tenders", "value": "Tenders", "slug": "/tenders" },
+    { "title": "Contact Us", "value": "Contact", "slug": "/contact_us" }
+  ],
+  "personData": [
+    {
+      "name": "Shri. Ramesh Bais",
+      "position": "Hon'ble Governor of Maharashtra",
+      "location": "/person/gv.gif"
+    },
+    {
+      "name": "Shri. Eknath Shinde",
+      "position": "Hon'ble Chief Minister of Maharashtra",
+      "location": "/person/cm.gif"
+    },
+    {
+      "name": "Shri. Devendra Fadnavis",
+      "position": "Hon'ble Deputy Chief Minister of Maharashtra",
+      "location": "/person/dcm.gif"
+    },
+    {
+      "name": "Shri. Sudhir mungantiwar",
+      "position": "Hon'ble Minister, Department of Culture Affairs",
+      "location": "/person/mca.gif"
+    },
+    {
+      "name": "Shri. Vikas Kharage",
+      "position": "Hon'ble Prinicipal Secretary, Department of Culture Affairs",
+      "location": "/person/ps.gif"
+    }
+  ],
+  "cmName": "Shri. Eknath Shinde",
+  "cmPosition": "Hon'ble Chief Minister of Maharashtra",
+  "cmLocation": "/person/cm.jpg",
+
+  "dcmName": "Shri. Devendra Fadnavis",
+  "dcmPosition": "Hon'ble Deputy Chief Minister of Maharashtra",
+  "dcmLocation": "/person/dcm.jpg",
+
+  "govName": "Shri. Ramesh Bais",
+  "govPosition": "Hon'ble Governor of Maharashtra",
+  "govLocation": "/person/gv.jpg",
+
+  "mcaName": "Shri. Sudhir mungantiwar ",
+  "mcaPosition": "Hon'ble Minister, Department of Culture Affairs",
+  "mcaLocation": "/person/mca.jpg",
+
+  "psName": "Shri. Vikas Kharage",
+  "psPosition": "Hon'ble Prinicipal Secretary, Department of Culture Affairs",
+  "psaLocation": "/person/ps.jpg",
+
+  "logoImage": "/home/logo.png",
+
+  "schemePdf1": "/home/Gad_Samvardhan_Yojana.pdf",
+  "schemePdf2": "/home/Maharashtra_Vaibhav_State_Protected_Monument_Care_Scheme.pdf",
+
+  "ActsMainTitle": "Welcome to the Directorate of Archaeology and Museums",
+  "ActsHeading": "Acts and Legislation",
+  "ActsSubHeading": "Download Act",
+
+  "MonumentsGallery": "Monuments Gallery",
+  "WelcomeNote": "Welcome To The Directorate Of Archaeology And Museums",
+  "MapDetail": "Map Showing State Protected Monuments",
+
+  "CitizenCharter": "Citizen Charter",
+  "CitizenCharter-p": "महाराष्ट्र शासकीय कर्मचाऱ्यांच्या बदल्यांचे विनियमन व शासकीय कर्तव्य पार पाडताना होणाऱ्या विलंबास प्रतिबंध अधिनियम २००५ मधील कलम ८ (१)(२) मधील तरतुदीनुसार यापूर्वी प्रसिद्ध केलेल्या नागरिकांच्या सनदेत यथायोग्य सुधारणा करून प्रस्तुत सनद प्रसिद्ध करण्यात येत आहे. या विभागाशी संबंधित असणाऱ्या सेवा तत्परतेने, सौजन्यपूर्वक व सन्मानपूर्वक नागरिकांना उपलब्ध करण्यासाठी हा विभाग बांधिल राहील. सांस्कृतिक कार्य विभांगातर्गत असलेली विविध स्मारके ही प्रेक्षणीय स्थळामध्येही गणली जातात. पुरातत्व संचालनालयाची स्थापना सप्टेंबर १९५५ मध्ये झाली असून दिनांक १५ ऑक्टोबर १९७६ पासून या संचालनालयाचे नाव बदलून पुरातत्त्व व वस्तुसंग्रहलये संचालनालय असे करण्यात आले आहे. प्राचीन आणि ऐतिहासिक स्मारकांचे गवेक्षण करून त्यातील राज्याच्या दृष्टिकोनातून महत्वाची असलेली स्मारके “राष्ट्रीय संरक्षित स्मारक” म्हणुन घोषित करून त्याचे जतन व संवर्धन करणे ही या संचालनालयाची जबाबदारी आहे. पुरातत्त्व व वस्तुसंग्रहलये संचालनालयाअंतर्गत पुरातत्त्व विभाग, वस्तुसंग्रहलय विभाग व नोंदणी विभाग असे ३ स्वतंत्र विभाग कार्यरत आहेत. या संचालनालयाच्या अधिनस्त १३ वस्तुसंग्रहलये आहेत.",
+  "Download": "Download",
+
+  "Adopt": "Adopt the Monument",
+  "Adopt-p1": "With aiming to create awareness amongst the layman about the historical heritage and the active participation by Non-Governmental organizations/persons directly into the conservation and restoration of the Monuments Protected by the state under the “Maharashtra Vaibhav Rajya Swanrkshit Smarak Sangopan Yojana” W.E.F 02nd February 2007 by GR. No. PQ.107/cul-3..",
+  "Adopt-p2": "Any organizations/person can adopt the Monuments scheduled in the protected Monuments list of Maharashtra State for five years through 2007 GR. However, due to interest of public and NGO government has decided to extend adaptation limit up to 10 years by which conservation, day to day maintenance, security, etc. are the responsibilities of organizations/persons who adapted the Monuments.",
+  "Adopt-p3": "Under this scheme, proposal of adapting Naldurg fort, Naldurg, ta. Tuljapur Dist. Osmanabad by Unity Multicans Pvt. Ltd. Solapur has been approved by government. The first phase of work mentioned in the proposal have been undertaken by Unity Multicans Pvt. Ltd. Solapur.",
+  "Adopt-p4": "Also the Birthplace of Late. Yashvantrao Chavhan at Devrashtra in Taluka. Kadegaon, district Sangali is adapted by Yashvantarao Chavhan Pratishthan, Mumbai in which important events in the life of Yashvantrao Chavhan has been exhibited through photographs.",
+
+  "Outreach": "PUBLIC OUTREACH PROGRAM",
+
+  "Administrative": "ADMINISTRATIVE SETUP",
+
+  "Administrative-p1": "The office of the Director, Archaeology and Museums, Government of Maharashtra is generally referred to as the Directorate of Archaeology, Government of Maharashtra It is one of the 7 Directorates under the Department of Tourism and Cultural Affairs Department, Ministry Government of Maharashtra The Department of Culture in the Maharashtra Government is headed by Principal Secretary, Tourism and Cultural Affairs Department",
+
+  "Administrative-p2": "The Directorate of Archaeology and Museums, controls all the activities of the Maharashtra State Archaeology Department. Archaeological excavations, Conservation and research projects are carried out through the Directorate. The Regional Offices established at Aurangabad, Nagpur, Nasik, Nanded, Pune and Ratnagiri work under the supervision and control of the Directorate.",
+
+  "Reference": "REFERENCE SITES",
+  "ReferenceLinks": [
+    { "link": "www.asi.nic.in" },
+    { "link": "www.asiaurangabad.com" },
+    { "link": "www.mumbaicercle.com" },
+    { "link": "www.maharashtra.turisum.com" },
+    { "link": "www.culture.maharashtra.gov.in" },
+    { "link": "www.maharashtra.gov.in" },
+    { "link": "www.gazetteer.maharashtra.gov.in" },
+    { "link": "www.epigraphyindia.in" },
+    { "link": " www.sic.maharashtra.gov.in" }
+  ],
+
+  "RTI": "RIGHT TO INFORMATION ACT",
+  "RTI-Title": "RTI",
+  "RTI-Address": "Office Address",
+  "RTI-Assistant": "Assistant RTI Officer",
+  "RTI-Email": "Email Id",
+  "RTI-Phone": "Phone",
+
+  "_commentAboutUs": "about us page text goes here...",
+  "AboutUs": "About Us",
+  "AboutUsData-p1": "The subject of ‘Archaeology’ is included in the concurrent list of the Constitution of India. It comes under the jurisdiction of both the Centre and the State administration as well. With the formation of the independent State of Maharashtra, the Department of Archives and Historical Monuments was establishedfor the first time in 1960. In the year 1977 for administrative convenience, two separate directorates viz., the Directorate of Archaeology and Museums and the Directorate of Archives were created.",
+  "AboutUsData-p2": "The Directorate of Archaeology and Museums functionsunder the Department of Culture Affairs, Government of Maharashtra and is further divided into two branches- Archaeology and Museums. The Directorate operates through its sub-offices at Ratnagiri, Nashik, Pune, Aurangabad, Nanded and Nagpur for administrative purposes.",
+  "AboutUsData-p3": "Discovery of historical monuments, places and artefacts, studying and documenting them, and declaring them as ‘State Protected Monuments’ so as to offer them legal protection are some of the main functions of the Directorate. It thus plays vital role in protection, conservation and preservation ofour heritage. The Directorate also undertakes excavations at archaeological sites so as to bring to the light the glorious past of historical places.The Directorate conducts explorations programs to explore and document the historical places and artefacts. It also undertakes excavations at places explored which are found to be quite rich with historical markers. Conservation and preservation of State Protected Monuments, their daily maintenance along with carrying out of explorations, studying archaeological artefacts, carrying out excavations and preparing detailed reports are some of the chief objectives of the Directorate.Numerous forts, caves, temples, tombs, mosques, gardens, palaces, gateways, lakes, step-wells, and inscriptionsare protected by the Directorate.",
+  "AboutUsData-p4": "The museums undertake very important job of preserving and showcasing the heritage of ancient India to the next generation. The Directorate has 13 museums under its jurisdiction that are home to artefacts unearthed during excavations and or those found during explorations, important historical objects, weapons and weaves, clothes and dresses, sculptures and art objects, artworks, inscriptions, structural members of the ancient- mediaeval period, paintings of revered artists etc. The main aim and objective of these museums is to not only display them for delight but also as educative devices.",
+  "AboutUsData-p5": "The Directorate is also publishing books to introduce the public to our nations’ glorious past and heritage. These publications include annual report titled ‘Maharashtra Purattatva’, Project reports on monument’s repairs, conservation and preservation, Historical places series titled ‘AitihasikSthaldarshan Mala’ and excavation reports in independent book format.",
+
+  "_commentContactUs": "contact us page text goes here...",
+
+  "ContactUs": "Contact Us",
+
+  "Archaeology": "Archaeology",
+  "Archaeology-Name": "Name",
+  "Archaeology-Post": "Post",
+  "Archaeology-Division": "Division",
+  "Archaeology-Address": "Address",
+  "Archaeology-Email": "Email ID",
+  "Archaeology-ContactNo": "Contact Number",
+
+  "RtiContactUs": "RTI",
+  "RtiSrNo": "Sr.No",
+  "Rti-Department": "Department",
+  "Rti-Officer": "RTI Officer",
+  "Rti-Assistant": "Assistant RTI Officer",
+  "Rti-Appellate": "Appellate",
+  "Rti-ContactNo": "Contact Number",
+  "Rti-Email": "Email ID",
+
+  "MuseumsContactUs": "Museums",
+  "Museums-Name": "Name",
+  "Museums-Post": "Post",
+  "Museums-Museum": "Museum",
+  "Museums-Address": "Address",
+  "Museums-Email": "Email ID",
+  "Museums-ContactNo": "Contact Number",
+
+  "MuseumTabsData": "Museum page text goes here...",
+  "MuseumTabs": [
+    { "title": "Ratnagiri Museum", "id": "1" },
+    { "title": "Nashik Museum", "id": "2" },
+    { "title": "Soneri Mahal Museum", "id": "3" },
+    { "title": "Ter Museum", "id": "4" },
+    { "title": "Sangli Museum", "id": "5" },
+    { "title": "Satara Museum", "id": "6" },
+    { "title": "Aundh Museum", "id": "7" },
+    { "title": "Town Hall Museum", "id": "8" },
+    { "title": "Chandrakant Mandhare Museum", "id": "9" },
+    { "title": "Paithan Museum", "id": "10" },
+    { "title": "Sindkhedraja Museum", "id": "11" },
+    { "title": "Mahur Museum", "id": "12" },
+    { "title": "Nagpur Museum", "id": "13" }
+  ],
+
+  "Opening-hours": "Opening Hours:",
+  "Timing": " 10.00 am to 5.00 pm",
+  "Closed-on": "Closed on: ",
+  "Day": " Monday",
+  "School-Student-title": "Children below 15 years / school student",
+  "School-Student-rate": "Rs. 1/-",
+  "College-Student-title": "College Student (With ID)",
+  "College-Student-rate": "Rs. 5/-",
+  "Adult-above15-title": "Children and adults above 15 years of age (Citizens of India, Citizens of BIMSTEC and SAARC countries)",
+  "Adult-above15-rate": "Rs. 10/-",
+  "Foreigner-title": "Foreign Nationals",
+  "Foreigner-rate": "Rs. 100/-",
+
+  "_commentExcavationExploration": "Excavation And Exploration page text goes here...",
+  "Excavation&Exploration": "Excavation And Exploration",
+  "Excavation&Exploration-p1": "Explorations and Excavations form an integral part of the discipline of Archaeology which helps us to discover and recover the unearthed past. The primary objective of the Directorate along with these is to carry out surveys and documentation of archaeological material.",
+  "Excavation&Exploration-p2": "The Directorate has successfully carried out excavations at Koundinyapur, Ter, Mandhal, Naikund, Khairwada, Nagara, Mulchehara, Washim, Chandankheda, Mali and more recently at Nagardhan.",
+  "Excavation&Exploration-p3": "The Directorate has also carried out various exploration projects in the interiors of Maharashtra. The most recent one was conducted in Ratnagiri and Sindhudurg districts where many petroglyph sites were discovered.",
+
+  "TableTitle": "LIST OF EXCAVATED SITES BY THE DIRECTORATE OF ARCHAEOLOGY AND MUSEUM, MAHARASHTRA",
+
+  "Excavation&Ex-no": "Sr. No",
+  "Excavation&Ex-Site": "Place",
+  "Excavation&Ex-Year's": "Year",
+  "Excavation&Ex-Excavated": "Excavated by",
+  "Excavation&Ex-Reference": "Reference",
+  "Excavation&Ex-Downloads": "Downloads",
+
+  "_commentPublication": "Publication page text goes here...",
+  "Publication": "Publication",
+  "Publication-p1": "The Directorate carries out various programs to generate public awareness. Publication of project reports and current on-going work are few of the tasks undertaken by the directorate to familiarise people with the work undertaken. These publications entail various types such as those in the form of printed Brochures, Booklets, Guide Books and Reports are published by the Directorate.",
+
+  "Publication-Guidbook": "Guide Book",
+  "Publication-Archaeology": "Archaeology",
+  "Publication-Other": "Others",
+  "Publication-Excavation": "Excavation",
+
+  "Publication-Name": "Name",
+  "Publication-Author": "Author",
+  "Publication-Language": "Language",
+  "Publication-Year": "Year",
+
+  "_commentMonuments": "Monuments page text goes here...",
+  "Monuments": "Monuments and Sites",
+  "Monuments-p1": "Monument in a historical and general sense of the term can be defined as a building, structure, or site/s that is of historical importance or interest. Archaeologically the definition of monuments goes beyond this depending on the nature of the remains. In Indian context, as per the Ancient Monuments and Archaeological Sites and Remains Act, 1958 ‘Ancient Monument ’ is defined as follows:-",
+
+  "Monuments-p2": "Ancient Monument: means any structure, erection or monument, or any tumulus or place of interment, or any cave, rock-sculpture, inscription or monolith which is of historical, archaeological or artistic interest and which has been in existence for not less than 100 years and includes—",
+
+  "Monuments-h1": "1. Remains of an ancient monument.",
+  "Monuments-h2": "2. Site of an ancient monument.",
+  "Monuments-h3": "3. Such portion of land adjoining the site of an ancient monument as may be required for fencing or covering in or otherwise preserving such monument.",
+  "Monuments-h4": "4. The means of access to, and convenient inspection of, an ancient monument.",
+
+  "Monuments-p3": "The section 2(d) of this act defines archaeological site and remains as follows:",
+  "Monuments-p4": "Archaeological site and remains means any area which contains or is reasonably believed to contain ruins or relics of historical or archaeological importance which have been in existence for not less than one hundred years, and includes—",
+  "Monuments-h5": "Such portion of land adjoining the area as may be required for fencing or covering in or otherwise preserving it and the means of access to, and convenient inspection of the area.",
+  "Monuments-p5": "The Directorate of Archaeology and Museums, Government of Maharashtra, has 376 monuments under its jurisdiction.",
+
+  "_commentMonumentsSites": "Monuments and Sites page text goes here...",
+  "MonumentsSitesTabsData": "MonumentsSites tabs text goes here...",
+  "MonumentsSitesTabs": [
+    {
+      "title": "Ratnagiri Division",
+      "id": "1",
+      "submenu": "true",
+      "TableTitle": "List of 44 Monuments of Ratnagiri Division",
+      "divi": "ratnagiri",
+      "gallerySlug": "ratnagiriDivision",
+      "subMenu": [
+        {
+          "title": "District Palghar",
+          "name": "palgharDistrict",
+          "divi": "ratnagiri"
+        },
+        {
+          "title": "District Thane",
+          "name": "thaneDistrict",
+          "divi": "ratnagiri"
+        },
+        {
+          "title": "District Mumbai",
+          "name": "mumbaiDistrict",
+          "divi": "ratnagiri"
+        },
+        {
+          "title": "District Raigad",
+          "name": "raigarhDistrict",
+          "divi": "ratnagiri"
+        },
+        {
+          "title": "District Ratnagiri",
+          "name": "ratnagiriDistrict",
+          "divi": "ratnagiri"
+        },
+        {
+          "title": "District Sindhudurg",
+          "name": "sindhudurgDistrict",
+          "divi": "ratnagiri"
+        }
+      ]
+    },
+    {
+      "title": "Nashik Division",
+      "id": "2",
+      "submenu": "true",
+      "TableTitle": "List of 49 Monuments of Nashik Division",
+      "divi": "nashik",
+      "gallerySlug": "nashikDivision",
+      "subMenu": [
+        {
+          "title": "District Nandurbar",
+          "name": "nandurbarDistrict",
+          "divi": "nashik"
+        },
+        {
+          "title": "District Dhule",
+          "name": "dhuleDistrict",
+          "divi": "nashik"
+        },
+        {
+          "title": "District Nashik",
+          "name": "nasikDistrict",
+          "divi": "nashik"
+        },
+        {
+          "title": "District Jalgaon",
+          "name": "jalgaonDistrict",
+          "divi": "nashik"
+        },
+        {
+          "title": "District Ahmadnagar",
+          "name": "ahmadnagarDistrict",
+          "divi": "nashik"
+        }
+      ]
+    },
+    {
+      "title": "Pune Division",
+      "id": "3",
+      "submenu": "true",
+      "TableTitle": "List of 40 Monuments of Pune Division",
+      "divi": "pune",
+      "gallerySlug": "puneDivision",
+      "subMenu": [
+        { "title": "District Pune", "name": "puneDistrict", "divi": "pune" },
+        {
+          "title": "District Satara",
+          "name": "sataraDistrict",
+          "divi": "pune"
+        },
+        {
+          "title": "District Solapur",
+          "name": "solapurDistrict",
+          "divi": "pune"
+        },
+        {
+          "title": "District Sangli",
+          "name": "sangliDistrict",
+          "divi": "pune"
+        },
+        {
+          "title": "District Kolhapur",
+          "name": "kolhapurDistrict",
+          "divi": "pune"
+        }
+      ]
+    },
+    {
+      "title": "Aurangabad Division",
+      "id": "4",
+      "submenu": "true",
+      "TableTitle": "List of 93 Monuments of Aurangabad Division",
+      "divi": "aurangabad",
+      "gallerySlug": "aurangabadDivision",
+      "subMenu": [
+        {
+          "title": "District Aurangabad",
+          "name": "chatrapatiSambhajinagarDistrict",
+          "divi": "chatrapatiSambhajinagar"
+        },
+
+        {
+          "title": "District Jalna",
+          "name": "jalanaDistrict",
+          "divi": "chatrapatiSambhajinagar"
+        },
+        {
+          "title": "District Beed",
+          "name": "beedDistrict",
+          "divi": "chatrapatiSambhajinagar"
+        },
+        {
+          "title": "District Osmanabad",
+          "name": "dharashivDistrict",
+          "divi": "chatrapatiSambhajinagar"
+        }
+      ]
+    },
+    {
+      "title": "Nanded Division",
+      "id": "5",
+      "submenu": "true",
+      "TableTitle": "List of 78 Monuments of Nanded Division",
+      "divi": "nanded",
+      "gallerySlug": "nandedDivision",
+      "subMenu": [
+        {
+          "title": "District Parbhani",
+          "name": "parbhaniDistrict",
+          "divi": "nanded"
+        },
+        {
+          "title": "District Hingoli",
+          "name": "hingoliDistrict",
+          "divi": "nanded"
+        },
+        {
+          "title": "District Latur",
+          "name": "laturDistrict",
+          "divi": "nanded"
+        },
+        {
+          "title": "District Nanded",
+          "name": "nandedDistrict",
+          "divi": "nanded"
+        }
+      ]
+    },
+    {
+      "title": "Nagpur Division",
+      "id": "6",
+      "submenu": "true",
+      "TableTitle": "List of 81 Monuments of Nagpur Division",
+      "divi": "nagpur",
+      "gallerySlug": "nagpurDivision",
+      "subMenu": [
+        {
+          "title": "District Buldhana",
+          "name": "buldhanaDistrict",
+          "divi": "nagpur"
+        },
+        {
+          "title": "District Akola",
+          "name": "akolaDistrict",
+          "divi": "nagpur"
+        },
+        {
+          "title": "District Amravati",
+          "name": "amravatiDistrict",
+          "divi": "nagpur"
+        },
+        {
+          "title": "District Washim",
+          "name": "washimDistrict",
+          "divi": "nagpur"
+        },
+        {
+          "title": "District Nagpur",
+          "name": "nagpurDistrict",
+          "divi": "nagpur"
+        },
+        {
+          "title": "District Yavatmal",
+          "name": "yavatmalDistrict",
+          "divi": "nagpur"
+        },
+        {
+          "title": "District Bhandara",
+          "name": "bhandaraDistrict",
+          "divi": "nagpur"
+        },
+        {
+          "title": "District Chandrapur",
+          "name": "chandrapurDistrict",
+          "divi": "nagpur"
+        },
+        {
+          "title": "District Gondia",
+          "name": "gondiaDistrict",
+          "divi": "nagpur"
+        }
+      ]
+    }
+  ],
+  "SrNo": "Sr. No.",
+  "Name-of-Monuments": "Name of Monument",
+  "Place": "Place",
+  "Taluka": "Taluka",
+  "District": "District",
+  "Notification-Status": "Notification Status",
+  "Notification": "Notification",
+  "Monument-Type": "Monument Type",
+
+  "Program": "Scheme",
+  "Page is Under Construction": "Page is Under Construction",
+
+  "_commentFooter": "Footer goes here...",
+  "other link": "Other Links",
+  "News": "News",
+  "Events": "Events",
+  "IMPORTANT LINK": "Important Link",
+  "Apps": "Apps",
+  "CONTACT": "Connect with us on",
+  "Mumbai Contact Information": "Mumbai Contact Information",
+  "Directorate of Archaeology and Museums": "Directorate of Archaeology and Museums,",
+  "Maharashtra State, Head Office": "Maharashtra State, Head Office",
+  "Mumbai St. George Fort": "Mumbai St. George Fort",
+  "Near to C.S.T. Mumbai": "Near to C.S.T. Mumbai- 400 001",
+
+  "Gad Samvardhan Yojana": "Gad Samvardhan Yojana",
+  "Maharashtra Vaibhav State Protected Monument Care Scheme": "Maharashtra Vaibhav State Protected Monument Care Scheme",
+  "Director": "Director's Message",
+  "Awards": "Awards and Scholarships",
+  "Festivals": "Festivals",
+  "AdministrativeSetup": "Administrative Setup",
+  "Gallery": "Gallery",
+  "Protection": "Protection, Conservation and Preservation",
+  "Competetion": "Competition and Camps",
+  "Trainings": "Trainings",
+  "Dialogue": "Dialogue",
+  "antiquities": "Report Antiquities and Monuments",
+  "menu": "Menu",
+  "Licence": "Permission/Licence",
+  "Film-Shooting": "Film Shooting",
+  "Permission-for-Programs": "Permission for Programs",
+  "Tenders": "Tenders",
+  "Government-of-Maharashtra": "Government of Maharashtra",
+  "Department-of-Cultural-Affairs": "Department of Cultural Affairs",
+  "Directorate-of-Archaeology-and-Museums": "Directorate of Archaeology and Museums",
+  "LicenceTabs": [
+    { "title": "Film Shooting", "id": "1" },
+    { "title": "Permission For Programs", "id": "2" }
+  ],
+  "LicenceTabsData": [
+    { "title": "Film Shooting", "id": "1" },
+    { "title": "Permission For Programs", "id": "2" }
+  ],
+  "Home": "Home",
+  "_commentProtectionConservationandPreservation": "Protection, Conservation and Preservation page text goes here...",
+  "Protection-para": [
+    {
+      "title": "Preservation, Conservation and protection of all monuments collectively are few of the main functions of the Directorate along with Exploration and Excavation. The directorate is duty bound to protect, conserve and preserve all the monuments declared as ‘Protected Monuments’ under the ‘Maharashtra Ancient Monument and Archaeological Sites and Remains Act, 1960’.",
+      "id": "1"
+    },
+    {
+      "title": "The primary function of the Directorate protects, conserve and preserve all monuments declared as the protected monument of State importance under the ‘Maharashtra Ancient Monument and Archaeological Sites and Remains Act, 1960’.",
+      "id": "1"
+    },
+    {
+      "title": "The act mentioned helps to make better provisions for the preservation of ancient and historical monuments and also for recording the archaeological sites and remains (other than those declared to be of national importance) in the state of Maharashtra.",
+      "id": "3"
+    },
+    {
+      "title": "Further steps that are deemed as important functions of the Directorate include documentation of unprotected heritage in the form of tangible evidence discovered from planned archaeological exploration and excavation as well as accidental discoveries. On the basis of this, data protection proposals are submitted to the Ministry of Cultural Affairs for approval and publication of Gazette Notification for protection of ancient monuments and archaeological sites is carried out.",
+      "id": "4"
+    }
+  ],
+  "Protection-steps": "Steps taken for the protection of the monument:",
+  "Prot-steps": [
+    {
+      "title": "The Assistant Director, in charge of Divisional office, takes initiative through field officer for documentation and photography of a particular monument intended to be protected in a prescribed proforma and it is forwarded to Director of Archaeology and Museums.",
+      "id": "1"
+    },
+    {
+      "title": "The Director of Archaeology and Museums forwards the same along with comments and reasoning to the Principal Secretary, Culture.",
+      "id": "2"
+    },
+    {
+      "title": "The Department of Cultural Affairs issues a preliminary Gazette Notification and draft notice, which is pasted on monument under consideration for public display.",
+      "id": "3"
+    },
+    {
+      "title": "As prescribed in the Act, two months minimum period is given to any individual or any public in general for raising the objection against the above notice.",
+      "id": "4"
+    },
+    {
+      "title": "If any such objection is received by the Directorate, the same is brought to notice of the Principal Secretary, Cultural Affairs.",
+      "id": "5"
+    },
+    {
+      "title": "If no objection is received in the said period of two months then the Government of Maharashtra issues Gazette Notification declaring a certain monument as the State Protected Monument/ Archaeological Site under the Maharashtra Ancient Monument and Archaeological Sites and Remains Act 1960.",
+      "id": "6"
+    },
+    {
+      "title": "The same is considered for conservation and preservation. The process regarding conservation is carried out by The Directorate of Archaeology and Museums as per available funds and manpower.",
+      "id": "7"
+    }
+  ],
+  "Prot-stepFooter": "The Directorate of Archaeology and Museums has protected 386 monuments/ancient sites till date wherein final notifications are issued in case of 302 monuments. Remaining monuments are still under the preliminary process of protection and shall be declared state-protected monuments after approval of the Government.",
+  "seeImgs": "Please click the link below to view the images",
+  "ProtectionTabs": [
+    { "title": "Introduction", "id": "1" },
+    { "title": "Conservation Workdone by Directorate", "id": "2" }
+  ],
+  "dateOfSubmission": "Date of Submission of Proposal to the Government",
+  "dateOfAdministrative": "Date of Administrative Approval",
+  "Commencement": "Commencement of Work",
+  "Completion": "Completion of Work",
+  "division": "Division",
+  "district": "District",
+  "AwardsTabs": [
+    { "title": "Awards", "id": "1" },
+    { "title": "Scholarships", "id": "2" }
+  ],
+  "Awards-T1": "Padmshri Sadashiv Gorakshakar Jivangaurav Award",
+  "Awards-P1": "Padmashri Sadashiv Gorakshakar contribution to heritage preservation and museum movement is valuable. He was an expert not only in Museum Management, but also in Archaeology, Heritage Conservation, Art, Architecture, and Iconography. In India, he is known as Bhishmapitamah of Museum Science. Padmashri Sadashiv Gorakshakar involvement in the heritage protection movement which started in Mumbai city is significant, and he was a major contributor in bringing into existence the laws protecting heritage sites. He was honored with the Padma Shri award in the year 2003 for his remarkable achievements in the field of Museology. The Padma Shri Sadashiv Gorakshakar Lifetime Achievement Award Scheme was announced by the State Government of Maharashtra in Government Decision क्र. पुवसं २०१९/प्र. क्र/९३/सां.का.३, दि. १८.०८.२०१९ in order to properly honour the achievements of Padmashri Sadashiv Gorakshakar. The amount of the said award is Rs.5, 00,000/- (Rupees five lakhs). An award of Rs.5, 00,000/- (Rupees Five Lakhs) will be awarded to senior researchers who have completed 45 years of age who have made outstanding achievements in the field of Museums. Researchers from Maharashtra will be given preference for this purpose.",
+  "Scholarships-T1": "पद्मश्री मधुकर ढवळीकर शिष्यवृत्ती योजना ",
+  "Scholarships-P1": "पद्मश्री मधुकर ढवळीकर यांचा ताम्रपाषाण युगीन संस्कृतीच्या अभ्यासामध्ये, ऐतिहासिक पुरात्तवीय स्थळांच्या उत्खननाच्या मुल्यमापनात मोलाचा सहभाग होता. त्याचसोबत त्यांनी मृत्तिका शिल्पे, सातवाहनकालीन व राष्ट्रकूटकालीन लेण्यांचा सखोल अभ्यास केला. त्यांचे बरेच शोध प्रबंध प्रसिद्ध आहेत. त्यांच्या या क्षेत्रातील कार्या बद्दल भारतीय पुरातत्त्व सर्वेक्षणाने सुवर्ण पदक देऊन, रॉयल एशियाटिक सोसायटीने सन्माननीय सदस्यत्व देऊन व भारत सरकारने पद्मश्री देऊन त्यांचा कार्याचा गौरव केलेला आहे. महाराष्ट्र शासनतर्फे त्यांच्या नावे शिष्यवृत्ती योजना सुरू करून त्याच्या यथोचित गौरव करण्याची बाब शासनाच्या विचारधीन होती.",
+
+  "_commentFestivals": "Festivals page text goes here...",
+  "Festival-title": "Events/Programs/Festivals celebrated at State Protected Monuments",
+  "Festival-No": "No.",
+  "Festival-Names": "Monument Names",
+  "Festival-Anniversary": "Birth Anniversary/ Death Anniversary",
+  "Festival-Date": "Date",
+  "Festival-table": [
+    {
+      "SrNo": "1",
+      "Names": "Savitribai Phule Birth Place, Ta. Khandala, Dist. Satara",
+      "Birth": "Savitribai Phule Birth Anniversary",
+      "Date": "3rd January"
+    },
+    {
+      "SrNo": "2",
+      "Names": "Lakhujirao Jadhav Rajawada, Ta. Sindhkhedraja, Dist. Bhuldhana",
+      "Birth": "Jijau Birth Anniversary",
+      "Date": "12th January"
+    },
+    {
+      "SrNo": "3",
+      "Names": "Late. Ram Ganesh Gdakari, Residance, Ta. Savner, Dist. Nagpur",
+      "Birth": "Death Anniversary",
+      "Date": "23rd January"
+    },
+    {
+      "SrNo": "4",
+      "Names": "Swatantravir Savarkarwada, Bhagur, Dist. Nashik",
+      "Birth": "Death Anniversary",
+      "Date": "26th  February"
+    },
+    {
+      "SrNo": "5",
+      "Names": "Malojiraje Bhosale Gadhi, Verul, Ta. Khulatabad, Dist. Chh. Sambhajinagar ",
+      "Birth": "Shahaji Raje Birth Anniversary",
+      "Date": "18th March"
+    },
+    {
+      "SrNo": "6",
+      "Names": "Hutatma Rajguru Birth Place, Rajguru Nagar, Ta. Khed, Dist. Pune ",
+      "Birth": "Death Anniversary",
+      "Date": "23rd March"
+    },
+    {
+      "SrNo": "7",
+      "Names": "Mahatma Phule Wada, Pune",
+      "Birth": "Birth Anniversary",
+      "Date": "11th April"
+    },
+    {
+      "SrNo": "8",
+      "Names": "Swatantravir Savarakarwada, Bhagur, Dist. Nashik",
+      "Birth": "Birth Anniversary",
+      "Date": "28th May"
+    },
+    {
+      "SrNo": "9",
+      "Names": "R.Chh.Shahu Maharaj Birth Place, Kolhapur ",
+      "Birth": "Birth Anniversary",
+      "Date": "26th June"
+    },
+    {
+      "SrNo": "10",
+      "Names": "Lokmanya Tilak Birthplace, Ratnagiri",
+      "Birth": "Death Anniversary",
+      "Date": "1st August"
+    },
+    {
+      "SrNo": "11",
+      "Names": "Hutatma Rajguru Birth Place, Rajguru Nagar, Ta. Khed, Dist. Pune",
+      "Birth": "Birth Anniversary",
+      "Date": "24th August "
+    },
+    {
+      "SrNo": "12",
+      "Names": "Mahatma Phule Wada, Pune",
+      "Birth": "Death Anniversary",
+      "Date": "28th November"
+    },
+    {
+      "SrNo": "13",
+      "Names": "World Heritage Day",
+      "Birth": "-",
+      "Date": "18 April"
+    },
+    {
+      "SrNo": "14",
+      "Names": "International Museum Day",
+      "Birth": "-",
+      "Date": "18 May"
+    },
+    {
+      "SrNo": "15",
+      "Names": "World Heritage Week",
+      "Birth": "-",
+      "Date": "19 November - 25 November"
+    }
+  ],
+  "_commentSchemes": "Schemes page text goes here...",
+  "Gad-Sanvardhan-Title": "Gad Sanvardhan and Monument Conservation Scheme",
+  "Gad-Sanvardhan-p1": "Forts and forts should be conserved well and for this, fort-loving organizations, individuals and fort experts should be involved, as well as to introduce the inspiring life of Chhatrapati Shivaji Maharaj to the new generation and preserve and preserve the forts and forts, Government Decision No. Miscellaneous 2014/P.No.156/No.3, by the government decision dated 30.03.2015 then Hon. a committee of history lovers was formed under the chairmanship of Minister, Cultural Affairs. This committee had recommended for the preservation and conservation of a total of 28 forts in the state, out of which preservation and conservation of 24 forts have been completed. The conservation work of Shirgaon Fort and Underi Fort has been suspended and the work of the remaining 2 forts is in progress.",
+  "Gad-Sanvardhan-p2": "Currently, the Fort Conservation Committee has been re-established as per the Government Decision dated 30.11.2022 of the Department of Tourism and Cultural Affairs. In this committee, state level and departmental level committees have been formed like the revenue departments of Maharashtra state. Conservation work of Gadkots in Maharashtra can be proposed under the guidance of this committee.",
+  "Gad-Sanvardhan-p3": "In this committee constituted by the government, according to the recommendations of the departmental level committee through the state level committee, the district level information of the unprotected forts and forts in the state is prepared, giving advice regarding the comprehensive development plans, organizing various activities, taking measures to increase the participation of the local people for the conservation of the forts with the cooperation of the departmental level committee. Protected monuments in the state including forts, temples, caves etc., for that, as per the request of the Cultural Affairs Department, the Planning Department issued Government Decision No. DAP/10/2022/Pr.No.277/Ka.1481, dated 14.12.2022 as per Government Decision, District Annual Plan (General) includes forts, temples and important monuments in the state.",
+  "Gad-Sanvardhan-p4": "The departmental level committee to collect comprehensive information about the forts in the concerned department and to cooperate with the concerned archeology divisional office to prepare the district wise gazetteer, to recommend to the state level committee regarding the preservation and repair and conservation work of the forts in department wise, the tourism development program includes activities such as making recommendations to the government on how to increase the participation of local savings groups, related NGOs working at the fort and local people living in the area in employment growth.",
+  "gad-stage1": "Stage 1:",
+  "gad-stage2": "Stage 2:",
+  "Divi-Ratnagiri": "Ratnagiri",
+  "Divi-Pune": "Pune",
+  "Divi-Nashik": "Nashik",
+  "Divi-Nagpur": "Nagpur",
+  "Divi-Nanded": "Nanded",
+  "Divi-Aurangabad": "Aurangabad",
+  "stage-1-1": "Shirgaon Fort, Shirgaon, Dist. Palghar",
+  "stage-1-2": "Bhudargad Fort, Bhudargad, Dist. Kolhapur",
+  "stage-1-3": "Torna Fort, Velhe, Dist. Pune",
+  "stage-1-4": "Kharda Fort, Kharda, Dist. Ahmadnagar",
+  "stage-1-5": "Galana Fort, Galana, Dist. Nashik",
+  "stage-1-6": "Ambagad Fort, Ambagad, Dist. Bhandara",
+  "stage-1-7": "Manikgad Fort, Manikgad, Dist. Chandrapur",
+  "stage-1-8": "Nagardhan Fort, Ramtek, Dist. Nagpur",
+  "stage-1-9": "Antur Fort, Nagapur, Dist. Aurangabad",
+  "stage-1-10": "Paranda Fort, Paranda, Dist. Osmanabad",
+  "stage-1-11": "Dharur Fort, Dharur, Dist. Beed",
+  "stage-1-12": "Ausa Fort, Ausa, Dist. Latur",
+  "stage-1-13": "Kandhar Fort, Kandhar, Dist. Nanded",
+  "stage-1-14": "Mahur Fort, Mahur, Dist. Nanded",
+  "stage-2-1": "Purngad Fort, Purngad, Dist. Ratnagiri",
+  "stage-2-2": "Bankot Fort, Bankot, Dist. Ratnagiri",
+  "stage-2-3": "Underi Fort, Underi, Dist. Raigad",
+  "stage-2-4": "Yashwantgad Fort, Redi, Dist. Sindhudurga",
+  "stage-2-5": "Bharatgad Fort, Masure, Dist. Sindhudurga",
+  "stage-2-6": "Koyrigad Fort, Ambavane, Dist. Pune",
+  "stage-2-7": "Rangana Fort, Chickewadi, Dist. Kolhapur",
+  "stage-2-8": "Vishalgad Fort, Gajapur, Dist. Kolhapur",
+  "stage-2-9": "Ankai Fort, Ankai, Dist, Nashik",
+  "stage-2-10": "Tankai Fort, Ankai, Dist, Nashik",
+  "stage-2-11": "Salher Fort, Mulher, Dist. Nashik",
+  "stage-2-12": "Mulher Fort, Mulher, Dist. Nashik",
+  "stage-2-13": "Laling Fort, Laling, Dist. Dhule",
+  "stage-2-14": "Vetalwadi Fort, Vetalwadi, Dist. Aurangabad",
+  "SchemeTabs": [
+    { "title": "Gad Sanvardhan", "id": "1" },
+    { "title": "Adopt the Monument", "id": "2" }
+  ],
+  "Division": "Division",
+  "Sr-no": "Sr No",
+  "Name-of-Monument": "Name of Monument",
+  "_commentLicence": "Licence page text goes here...",
+  "Permission-p1": "The 'Gateway of India', the emblem of the city of Mumbai, is a Category “A” State Protected Monument of the Directorate of Archeology and Museums. Various programs are organized by government institutions, non-governmental organizations (NGOs) and private organizations in the vicinity of the said memorial. Gate of India, Mumbai, a state protected monument, receives a large number of requests from various government departments, private and non-governmental organizations to organize various types of events every year. A proposal to fix revised rules for organizing such programs in the memorial area has been proposed by the Director, Archeology & Directorate of Museums, Mumbai letter तंत्र २०२१ - २२/मं.प.-गे.वे.इं/८७३, dated. 31 March, 2022. Accordingly, Government Decision, Tourism and Cultural Affairs Department क्र. पुवसं-२०१८/प्र. क्र.०७/सां. का.३,  dated 15th February, 2018 was under the consideration of the Government to fix revised rules for organizing such programs in the memorial premises. Accordingly, the government has taken the following decision.",
+  "AdministrativeSetUpTabs": [
+    { "title": "Introduction", "id": "1" },
+    { "title": "Recruitment", "id": "2" }
+  ],
+  "Licence-Film-p1": "Taking into consideration the government&#39;s policy of Ease of doing business, a meeting was held with the Hon&#39;ble Chief Minister on 18 th September, 2015. In this regard, the matter of implementing a single window scheme was under the consideration of the government in order to get the permits of various departments required for shooting of movies, TV serials, commercials, documentaries, etc. with ease and within a certain time frame. Mumbai Metropolitan Region Development Authority and Mumbai Metro Rail Corporation Ltd. will be able to apply the system under the window scheme if they have declared available locations for filming on the website https://www.filmcell.maharashtra.gov.in/sws/. However, for those locations which are not available on the website https://www.filmcell.maharashtra.gov.in/sws/ (Maharashtra Filmcell) or where filming is restricted/prohibited as per law, separate permission for filming shall be obtained from the respective organization.",
+  "Link": "Link",
+  "No-Vacancies": "No Vacancies",
+  "Vacancy-Notify": "Recruitment Advertisement 2023-24 (View detail)",
+  "Click-to-fill-form": "Click to fill Form",
+  "Recruitment": "Recruitment",
+  "Link-to-Download-Admit-Card":"Link to Download Admit Card",
+  "Link-to-Download-Admit-Card-24-2-24":"Link to Download Admit Card For Examination 24.02.2024",
+  "helpline-heading":"Helpline if candidates face any problem related to admit card",
+  "helpline-desc":"IBPS link and help line numbers for candidates facing problems to download call letter",
+  "link":"Link",
+  "help-line":"Help Line",
+  "recruitment-folder": [
+    { "title": "Information Booklet", "id": "1", "slug":"information-booklet" },
+    { "title": "Select list", "id": "2", "slug":"select-list" },
+    { "title": "Basic score list", "id": "3", "slug":"basic-score" },
+    { "title": "Advertisement and Circulars", "id": "4", "slug":"advertisement-circulars" }
+    
+  ]
+}
