@@ -15,7 +15,7 @@ const Index = () => {
         content="The Directorate of Archaeology and Museums functions under the Department of Culture Affairs, Government of Maharashtra and is further divided into two branches- Archaeology and Museums. The Directorate operates through its sub-offices at Ratnagiri, Nashik, Pune, Aurangabad, Nanded and Nagpur for administrative purposes."
       />
       <Navigation pagePath={router.route} />
-      <SubPageHeader title={t("Seniority List of Officers/Employees")} />
+      <SubPageHeader title={t("emp-list-title")} />
       <div className="mt-5">
         <section className="">
           <div className="px-5 py-3 mx-auto">
