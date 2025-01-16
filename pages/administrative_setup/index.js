@@ -198,6 +198,52 @@ const Index = () => {
                     </a>
                   </div>
 
+<div className="px-5 ">
+<a
+                              href="https://assets.ctfassets.net/l47hkrce4wip/pooozGymLMcWNdMlBERoj/b240f7d6bed7c2c0bf8952fa4e81fedb/____________________________________.pdf"
+                              target="_blank"
+                              key={Math.random() * 100}                             
+                              className=" pb-3 "
+                            >
+सहाय्यक (दर्शन‍िका व‍िभाग) न‍िवडयादी
+
+                                </a>
+<br/>
+
+                                <a
+                              href="https://assets.ctfassets.net/l47hkrce4wip/14valdNd9fhlmyxsSGpYN7/765854a63a2eaa741967ed8fad69d824/________________________________________________.pdf"
+                              target="_blank"
+                              key={Math.random() * 100}                             
+                              className=" pb-3 "
+                            >
+सहाय्यक (दर्शन‍िका व‍िभाग) न‍िकाल प्रसिद्धीपत्रक
+
+                                </a>
+<br/>
+                                                                <a
+                              href="https://assets.ctfassets.net/l47hkrce4wip/2VT7giQSFkir8XGIgRvsPr/7452120b1d9718199cfa1c198387656a/Assistant__Gazetteer_Department__BSL.pdf"
+                              target="_blank"
+                              key={Math.random() * 100}                             
+                              className=" pb-3 "
+                            >
+Assistant (Gazetteer Department) BSL
+
+                                </a>
+<br/>
+                <a
+                              href="https://assets.ctfassets.net/l47hkrce4wip/2DF8LEfHbl2wms0NMx1vuG/f412cc54ad4564f557acf37dc02a3f56/Provisional_selection_list_against_OBC__EX-Servicemen__of_Assistant_Archaeologist.pdf"
+                              target="_blank"
+                              key={Math.random() * 100}                             
+                              className=" pb-3 "
+                            >
+Provisional selection list against OBC (EX-Servicemen) of Assistant Archaeologist
+
+                                </a>
+<br/>                   
+                          </div>
+    
+                          
+
                   <div className="px-5 ">
                     <a
                       href="https://assets.ctfassets.net/l47hkrce4wip/pooozGymLMcWNdMlBERoj/b240f7d6bed7c2c0bf8952fa4e81fedb/____________________________________.pdf"
