@@ -45,6 +45,8 @@
       "slug": "/citizen_charter"
     },
     { "title": "माहिती अधिकार", "value": "RTI", "slug": "/rti" },
+    { "title": "शासन निर्णय", "value": "GR", "slug": "/gr" },
+
     {
       "title": "परवानगी/लाइसेंस",
       "value": "Licence",
