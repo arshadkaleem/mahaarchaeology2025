@@ -109,6 +109,7 @@
       "slug": "/citizen_charter"
     },
     { "title": "माहिती अधिकार", "value": "RTI", "slug": "/rti" },
+    { "title": "शासन निर्णय", "value": "RTI", "slug": "/rti" },
     {
       "title": "परवानगी/लाइसेंस",
       "value": "Licence",
@@ -589,6 +590,7 @@
   "emp-list-title": "अधिकारी/ कर्मचाऱ्यांची ज्येष्ठता सूची",
   "AdministrativeSetup": "प्रशासकीय रचना",
   "Gallery": "चित्रदालन",
+  "GR": "शासन निर्णय",
   "Protection": "जतन व संवर्धन",
   "Competetion": "स्पर्धा व शिबीर",
   "Trainings": "प्रशिक्षण",

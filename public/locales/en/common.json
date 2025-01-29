@@ -105,7 +105,7 @@
       "slug": "/citizen_charter"
     },
     { "title": "RTI", "value": "RTI", "slug": "/rti" },
-
+    { "title": "Government Resolution", "value": "GR", "slug": "/gr" },
     {
       "title": "Permission/Licence",
       "value": "Licence",
@@ -614,6 +614,7 @@
   "emp-list-title": "Seniority List of Officers/Employees",
   "AdministrativeSetup": "Administrative Setup",
   "Gallery": "Gallery",
+  "GR": "Government Resolutions",
   "Protection": "Protection, Conservation and Preservation",
   "Competetion": "Competition and Camps",
   "Trainings": "Trainings",
