@@ -65,6 +65,7 @@
       "slug": "/excavation_and_exploration"
     },
     { "title": "प्रकाशने", "value": "Publications", "slug": "/publications" },
+    { "title": "न्यायालयाचा आदेश", "value": "Courtorder", "slug": "/courtorder" },
     { "title": "विथिका", "value": "Gallery", "slug": "/gallery" },
     {
       "title": "जतन व संवर्धन ",
