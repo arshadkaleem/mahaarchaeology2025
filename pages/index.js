@@ -12,6 +12,7 @@ import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import * as AllImages from "../components/allApi/allImagesApi";
 import { useRouter } from "next/router";
 import HeadMeta from "../components/HeadMeta";
+import ImageModal from "../components/modal/ImageModal";
 
 const Home = ({ coverData, governmentData, homeSliderData }) => {
   const [active, setActive] = useState("Map");
@@ -21,6 +22,7 @@ const Home = ({ coverData, governmentData, homeSliderData }) => {
   const { t } = useTranslation("common");
   return (
     <>
+      <ImageModal />
       <HeadMeta
         title="The Directorate of Archaeology and Museums functions under the Department of Culture Affairs, Government of Maharashtra."
         content="The Directorate of Archaeology and Museums functions under the Department of Culture Affairs, Government of Maharashtra and is further divided into two branches- Archaeology and Museums. The Directorate operates through its sub-offices at Ratnagiri, Nashik, Pune, Aurangabad, Nanded and Nagpur for administrative purposes."
