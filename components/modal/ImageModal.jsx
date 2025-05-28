@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { BsX } from "react-icons/bs";
 
 const ImageModal = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,9 +33,9 @@ const ImageModal = () => {
             {/* Close Button */}
             <button
               onClick={() => setIsOpen(false)}
-              className="absolute top-2 right-2 text-gray-600 hover:text-black z-50 text-lg"
+              className="absolute -top-2 -right-2 text-gray-600 hover:text-black z-50"
             >
-              ✕
+              <BsX className="text-lg md:text-[2em] xl:text-[3em]" />
             </button>
 
             {/* Image and Clickable Button */}

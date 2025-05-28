@@ -63,6 +63,7 @@ const IndexPage = () => {
                 className="mb-3 font-normal text-blue-600 cursor-pointer"
                 href="https://forms.gle/2cC5VsTQvAVcCkJg9"
                 target="_blank"
+                rel="noreferrer"
               >
                 <BsLink className="inline mr-3" />
                 Click Here to submit your response by 15th June 2025
