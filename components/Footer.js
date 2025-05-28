@@ -14,8 +14,10 @@ export const Footer = () => {
                 {t("other link")}
               </h4>
               <div className="flex flex-col mb-3 text-sm">
-                {/* <Link href="/Services/Design"> */}
-                <a className="flex items-center gap-2 cursor-pointer">
+                <Link
+                  href="/News"
+                  className="flex items-center gap-2 cursor-pointer"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -31,8 +33,7 @@ export const Footer = () => {
                     />
                   </svg>
                   {t("News")}
-                </a>
-                {/* </Link> */}
+                </Link>
               </div>
               <div className="flex flex-col mb-3 text-sm">
                 {/* <Link href="/Services/Furniture"> */}
