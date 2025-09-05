@@ -12,7 +12,9 @@ import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import * as AllImages from "../components/allApi/allImagesApi";
 import { useRouter } from "next/router";
 import HeadMeta from "../components/HeadMeta";
-import ImageModal from "../components/modal/ImageModal";
+
+
+// import ImageModal from "../components/modal/ImageModal";
 
 const Home = ({ coverData, governmentData, homeSliderData }) => {
   const [active, setActive] = useState("Map");
@@ -22,7 +24,7 @@ const Home = ({ coverData, governmentData, homeSliderData }) => {
   const { t } = useTranslation("common");
   return (
     <>
-      <ImageModal />
+      {/* <ImageModal /> */}
       <HeadMeta
         title="The Directorate of Archaeology and Museums functions under the Department of Culture Affairs, Government of Maharashtra."
         content="The Directorate of Archaeology and Museums functions under the Department of Culture Affairs, Government of Maharashtra and is further divided into two branches- Archaeology and Museums. The Directorate operates through its sub-offices at Ratnagiri, Nashik, Pune, Aurangabad, Nanded and Nagpur for administrative purposes."
@@ -53,12 +55,20 @@ const Home = ({ coverData, governmentData, homeSliderData }) => {
               </div>
             </Link>
 
-            <input
+            {/* <input
               type="search"
               className="form-control block w-[350px] px-1 sm:px-3 py-2 text-sm sm:text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300
         rounded transition  ease-in-out m-0  focus:bg-white  focus:outline-none "
               placeholder="Search "
-            />
+            /> */}
+
+            <Link href="/advertisement" legacyBehavior>
+              <div className="blink flex items-center cursor-pointer">
+                <span className="inner-text text-blue-800">
+                  {t("Advertisement")}
+                </span>
+              </div>
+            </Link>
           </div>
         </div>
         <div className="grid sm:grid-cols-12 grid-cols-1 relative  w-11/12 mx-auto">
@@ -170,13 +180,13 @@ const Home = ({ coverData, governmentData, homeSliderData }) => {
                       {item.img ? (
                         <img
                           src={item.img.url}
-                          alt="random imgee"
+                          alt="slider"
                           className="w-full object-cover object-center  "
                         />
                       ) : (
                         <img
                           src="/home/user.png"
-                          alt="random imgee"
+                          alt="user"
                           className="w-full object-cover object-center  "
                         />
                       )}
