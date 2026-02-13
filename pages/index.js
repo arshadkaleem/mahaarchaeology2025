@@ -52,6 +52,19 @@ const Home = ({ coverData, governmentData, homeSliderData }) => {
                 <span className="inner-text text-blue-800">
                   {t("Vacancy-Notify")}
                 </span>
+
+
+              </div>
+            </Link>
+
+
+            <Link href="https://www.mahaarchaeology.in/recruitment/recruitment-2025-2026.pdf" legacyBehavior>
+              <div className="blink flex items-center cursor-pointer">
+                <span className="inner-text text-blue-800">
+                  Recruitment  2025-2026
+                </span>
+
+
               </div>
             </Link>
 
@@ -101,11 +114,10 @@ const Home = ({ coverData, governmentData, homeSliderData }) => {
                         setActive(item.value), setOpen(!open);
                       }}
                       className={` border-2 p-2 text-left font-bold  border-gray-100 rounded-md w-full focus:bg-slate-700 focus:text-white hover:bg-slate-700 hover:text-white 
-                ${
-                  item.value === active
-                    ? "bg-slate-800 text-white focus:border-slate-700 "
-                    : "bg-white text-slate-700"
-                }`}
+                ${item.value === active
+                          ? "bg-slate-800 text-white focus:border-slate-700 "
+                          : "bg-white text-slate-700"
+                        }`}
                     >
                       {" "}
                       {item.title}
@@ -116,16 +128,16 @@ const Home = ({ coverData, governmentData, homeSliderData }) => {
             )}
           </div>
           {/* desktop */}
+
           <div className="col-span-2  hidden sm:block ">
             <div className="px-2 py-3 h-full bg-white grid grid-cols-1  content-start  border-l-2 rounded-l-md">
               {t("subLinksLeft", { returnObjects: true }).map((item) => (
                 <div key={Math.random() * 100}>
                   <div
-                    className={`border-2 py-2 mb-5 px-2 text-left flex justify-between items-center shadow-md font-bold bg-[#eee] border-gray-100 rounded-md w-full focus:bg-slate-700 focus:text-white hover:bg-slate-700 hover:text-white ${
-                      item.value === active
-                        ? "bg-slate-700  text-white focus:border-slate-700 "
-                        : "bg-[#eee] text-slate-700"
-                    }
+                    className={`border-2 py-2 mb-5 px-2 text-left flex justify-between items-center shadow-md font-bold bg-[#eee] border-gray-100 rounded-md w-full focus:bg-slate-700 focus:text-white hover:bg-slate-700 hover:text-white ${item.value === active
+                      ? "bg-slate-700  text-white focus:border-slate-700 "
+                      : "bg-[#eee] text-slate-700"
+                      }
                   `}
                   >
                     <Link href={item.slug} as={item.slug} legacyBehavior>
@@ -142,9 +154,8 @@ const Home = ({ coverData, governmentData, homeSliderData }) => {
                       {" "}
                       {item.submenu && (
                         <BsChevronDown
-                          className={`cursor-pointer ${
-                            subMenuOpen && "rotate-180"
-                          }`}
+                          className={`cursor-pointer ${subMenuOpen && "rotate-180"
+                            }`}
                           onClick={() => setSubMenuOpen(!subMenuOpen)}
                         />
                       )}
@@ -262,11 +273,10 @@ const Home = ({ coverData, governmentData, homeSliderData }) => {
                 <div key={Math.random() * 100}>
                   <div
                     key={Math.random() * 100}
-                    className={`border-2 py-2 mb-5 px-2 text-left flex justify-between items-center shadow-md font-bold bg-[#eee] border-gray-100 rounded-md w-full focus:bg-slate-700 focus:text-white hover:bg-slate-700 hover:text-white ${
-                      item.value === active
-                        ? "bg-slate-700  text-white focus:border-slate-700 "
-                        : "bg-[#eee] text-slate-700"
-                    }
+                    className={`border-2 py-2 mb-5 px-2 text-left flex justify-between items-center shadow-md font-bold bg-[#eee] border-gray-100 rounded-md w-full focus:bg-slate-700 focus:text-white hover:bg-slate-700 hover:text-white ${item.value === active
+                      ? "bg-slate-700  text-white focus:border-slate-700 "
+                      : "bg-[#eee] text-slate-700"
+                      }
                   `}
                   >
                     <Link
@@ -289,9 +299,8 @@ const Home = ({ coverData, governmentData, homeSliderData }) => {
                       {" "}
                       {item.submenu && (
                         <BsChevronDown
-                          className={`cursor-pointer ${
-                            subMenuOpen && "rotate-180"
-                          }`}
+                          className={`cursor-pointer ${subMenuOpen && "rotate-180"
+                            }`}
                           onClick={() => setSubMenuOpen(!subMenuOpen)}
                         />
                       )}
