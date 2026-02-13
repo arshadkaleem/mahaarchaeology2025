@@ -58,7 +58,7 @@ const Home = ({ coverData, governmentData, homeSliderData }) => {
             </Link>
 
 
-            <Link href="https://www.mahaarchaeology.in/recruitment/recruitment-2025-2026.pdf" legacyBehavior>
+            <a href="https://www.mahaarchaeology.in/recruitment/recruitment-2025-2026.pdf" target="_blank" rel="noopener noreferrer" legacyBehavior>
               <div className="blink flex items-center cursor-pointer">
                 <span className="inner-text text-blue-800">
                   Recruitment  2025-2026
@@ -66,7 +66,7 @@ const Home = ({ coverData, governmentData, homeSliderData }) => {
 
 
               </div>
-            </Link>
+            </a>
 
             {/* <input
               type="search"
