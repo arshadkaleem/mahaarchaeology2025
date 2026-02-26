@@ -67,11 +67,10 @@ const Index = () => {
                         setOpen(false);
                       }}
                       className={` border-2 p-2 text-left font-bold  border-gray-100 rounded-md w-full focus:bg-slate-700 focus:text-white hover:bg-slate-700 hover:text-white 
-        ${
-          item.id == activeTab
-            ? "bg-slate-800 text-white focus:border-slate-700 "
-            : "bg-white text-slate-700"
-        }`}
+        ${item.id == activeTab
+                          ? "bg-slate-800 text-white focus:border-slate-700 "
+                          : "bg-white text-slate-700"
+                        }`}
                     >
                       {" "}
                       {item.title}
@@ -90,11 +89,10 @@ const Index = () => {
                   <button
                     key={Math.random() * 100}
                     className={`border-2 p-2 text-left font-bold bg-[#eee]  border-gray-100 rounded-md w-full focus:bg-slate-700 focus:text-white hover:bg-slate-700 hover:text-white
-        ${
-          item.id == activeTab
-            ? "bg-slate-700  text-white focus:border-slate-700 "
-            : "bg-[#eee] text-black"
-        }`}
+        ${item.id == activeTab
+                        ? "bg-slate-700  text-white focus:border-slate-700 "
+                        : "bg-[#eee] text-black"
+                      }`}
                     onClick={(e) => {
                       e.preventDefault();
                       setActiveTab(item.id);
@@ -135,6 +133,12 @@ const Index = () => {
                     {t("Recruitment")}{" "}
                   </h1>
                   <div className="px-5 py-2">
+
+                    <p className="text-left  py-2 font-bold">
+                      <Link href="https://www.mahaarchaeology.in/recruitment/मार्गदर्शक व्याख्याता पद रद्द करणेबाबत नोटीस.pdf">मार्गदर्शक व्याख्याता पद रद्द करणेबाबत नोटीस</Link>
+                    </p>
+
+
                     <p className="text-left  py-2 font-semibold">
                       {t("helpline-heading")}
                     </p>
@@ -262,7 +266,7 @@ const Index = () => {
                                   {" "}
                                   <span className="px-3 ">
                                     {activeFolderTab &&
-                                    activesubTab == item.id ? (
+                                      activesubTab == item.id ? (
                                       <FaMinusCircle
                                         color="#d31145"
                                         className="text-xl"
