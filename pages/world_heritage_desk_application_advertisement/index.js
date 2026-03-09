@@ -8,13 +8,11 @@ import HeadMeta from "../../components/HeadMeta";
 import Link from "next/link";
 
 const files = [
-    { name: "001 SMP competition - Advertisment (1).pdf", path: "/recruitment/2026/001 SMP competition - Advertisment (1).pdf" },
-    { name: "001 SMP competition - Advertisment.pdf", path: "/recruitment/2026/001 SMP competition - Advertisment.pdf" },
-    { name: "002 SMP competition Rules & Regulations.pdf", path: "/recruitment/2026/002 SMP competition Rules & Regulations.pdf" },
-    { name: "003 SMP - Format.pdf", path: "/recruitment/2026/003 SMP - Format.pdf" },
-    { name: "ARCH ADD_0001.pdf", path: "/recruitment/2026/ARCH ADD_0001.pdf" },
-    { name: "Advertisement_001.pdf", path: "/recruitment/2026/Advertisement_001.pdf" },
-    { name: "covering ००2.pdf", path: "/recruitment/2026/covering ००2.pdf" }
+    { name: "01} Nagpur Division SMP Competition Advertisment.pdf", path: "/recruitment/2026/01} Nagpur Division SMP Competition Advertisment.pdf" },
+    { name: "02} Pune & Ratnagiri Division SMP Competition Advertisment.pdf", path: "/recruitment/2026/02} Pune & Ratnagiri Division SMP Competition Advertisment.pdf" },
+    { name: "03} Nashik Division SMP Competition Advertisment.pdf", path: "/recruitment/2026/03} Nashik Division SMP Competition Advertisment.pdf" },
+    { name: "04} Chha. Sambhaji Nagar Division SMP Competition Advertisment.pdf", path: "/recruitment/2026/04} Chha. Sambhaji Nagar Division SMP Competition Advertisment.pdf" },
+    { name: "05} Nanded Division SMP Competition Advertisment.pdf", path: "/recruitment/2026/05} Nanded Division SMP Competition Advertisment.pdf" }
 ];
 
 const Index = () => {
