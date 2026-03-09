@@ -58,7 +58,7 @@ const Home = ({ coverData, governmentData, homeSliderData }) => {
             </Link>
 
 
-            <a href="https://www.mahaarchaeology.in/recruitment/World-Heritage-Desk-Application-2026.pdf" target="_blank" rel="noopener noreferrer" legacyBehavior>
+            <a href="/world_heritage_desk_application_advertisement" target="_blank" rel="noopener noreferrer" legacyBehavior>
               <div className="blink flex items-center cursor-pointer">
                 <span className="inner-text text-blue-800">
                   World Heritage Desk Application Advertisement
