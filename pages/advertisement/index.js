@@ -12,7 +12,7 @@ const files = [
   { name: "01} Nagpur Division SMP Competition Advertisment.pdf", path: "/recruitment/2026/01} Nagpur Division SMP Competition Advertisment.pdf" },
   { name: "02} Pune & Ratnagiri Division SMP Competition Advertisment.pdf", path: "https://forms.gle/VLmgbC9Nghy3dH169" },
   // { name: "02} Pune & Ratnagiri Division SMP Competition Advertisment.pdf", path: "/recruitment/2026/02} Pune & Ratnagiri Division SMP Competition Advertisment.pdf" },
-  { name: "03} Nashik Division SMP Competition Advertisment.pdf", path: "/recruitment/2026/03} Nashik Division SMP Competition Advertisment.pdf" },
+  { name: "03} Nashik Division SMP Competition Advertisment.pdf", path: "/recruitment/2026/u/NASHIK Division SMP Competition Advertisment.pdf" },
   { name: "04} Chh. Sambajinagar Division SMP Competition Advertisment.pdf", path: "/recruitment/2026/u/Chh. Sambajinagar Division SMP Competition Advertisment.pdf" },
   { name: "05} Nanded Division SMP Competition Advertisment.pdf", path: "/recruitment/2026/u/Nanded Division SMP Competition Advertisment.pdf" },
   // { name: "06} SMP COMPETITION 2026 - 2027 - Google Forms.pdf", path: "/recruitment/2026/SMP COMPETITION 2026 - 2027 - Google Forms.pdf" },
