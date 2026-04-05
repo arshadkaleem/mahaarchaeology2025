@@ -9,16 +9,15 @@ import Link from "next/link";
 
 
 const files = [
-  { name: "01} Nagpur Division SMP competition - Advertisment - Corrigendum.pdf", path: "/recruitment/2026/01} Nagpur Division SMP competition - Advertisment - Corrigendum.pdf" },
+  { name: "01} Nagpur Division SMP Competition Advertisment.pdf", path: "/recruitment/2026/01} Nagpur Division SMP Competition Advertisment.pdf" },
   { name: "02} Pune & Ratnagiri Division SMP Competition Advertisment.pdf", path: "https://forms.gle/VLmgbC9Nghy3dH169" },
   // { name: "02} Pune & Ratnagiri Division SMP Competition Advertisment.pdf", path: "/recruitment/2026/02} Pune & Ratnagiri Division SMP Competition Advertisment.pdf" },
   { name: "03} Nashik Division SMP Competition Advertisment.pdf", path: "/recruitment/2026/u/NASHIK Division SMP Competition Advertisment.pdf" },
   { name: "04} Chh. Sambajinagar Division SMP Competition Advertisment.pdf", path: "/recruitment/2026/u/Chh. Sambajinagar Division SMP Competition Advertisment.pdf" },
   { name: "05} Nanded Division SMP Competition Advertisment.pdf", path: "/recruitment/2026/u/Nanded Division SMP Competition Advertisment.pdf" },
-  // { name: "06} SMP COMPETITION 2026 - 2027 - Google Forms.pdf", path: "/recruitment/2026/SMP COMPETITION 2026 - 2027 - Google Forms.pdf" },
-  // { name: "06} Google Form Link", path: "https://forms.gle/VLmgbC9Nghy3dH169" },
-  { name: "SMP competition - Advertisment - Corrigendum.pdf", path: "/recruitment/2026-03/SMP competition - Advertisment - Corrigendum.pdf" },
-  { name: "covering ००३.pdf", path: "/recruitment/2026-03/covering ००३.pdf" }
+
+    { name: "Corrigendum - SMP Competition for Nagpur Division.pdf", path: "/recruitment/2026/u/1-Corrigendum - SMP Competition for Nagpur Division.pdf" },
+    { name: "Corrigendum - SMP Competition for Sambajinagar Division.docx", path: "/recruitment/2026/u/1-Corrigendum - SMP Competition for Sambajinagar Division.docx" },
 ];
 
 
@@ -42,28 +41,21 @@ const Index = () => {
       <div className="w-full px-3 py-10 sm:px-0 sm:w-11/12 mx-auto text-justify">
 
 
-        {files.map((file, index) => {
-          const isFirstNewFile = file.path.includes("2026-03") && index === files.findIndex(f => f.path.includes("2026-03"));
-          return (
-            <React.Fragment key={index}>
-              {isFirstNewFile && (
-                <>
-                  <hr className="my-4" />
-                  <div></div>
-                </>
-              )}
-              <a
-                href={file.path}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg text-blue-600 hover:text-blue-800 underline flex items-center gap-2"
-              >
-                <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
-                {getCleanTitle(file.name)}
-              </a>
-            </React.Fragment>
-          );
-        })}
+        {files.map((file, index) => (
+          <a
+            key={index}
+            href={file.path}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-lg text-blue-600 hover:text-blue-800 underline flex items-center gap-2"
+          >
+            <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
+            {getCleanTitle(file.name)}
+          </a>
+
+
+
+        ))}
         <hr className="my-4" />
 
         <a href="https://assets.ctfassets.net/l47hkrce4wip/3OMRltYlK8rr6d1DwqCOQ/a733f2c9583adcb20401dd9459689af9/%C3%A0__%C3%A0__%C3%A0_%C2%B5%C3%A0__%C3%A0__%C3%A0__%C3%A0_%C2%B5%C3%A0__%C3%A0__%C3%A0__%C3%A0___%C3%A0__%C3%A0__%C3%A0__%C3%A0__%C3%A0__%C3%A0__%C3%A0__%C3%A0__%C3%A0__%C3%A0__%C3%A0__%C3%A0___%C3%A0_%C2%B5%C3%A0__%C3%A0_%C2%B5%C3%A0__%C3%A0__%C3%A0__%C3%A0__%C3%A0___%C3%A0__%C3%A0__%C3%A0__%C3%A0__%C3%A0__%C3%A0__%C3%A0__%C3%A0___%C3%A0__.pdf" target="_blank" rel="noopener noreferrer" className="text-lg text-blue-600 underline">
