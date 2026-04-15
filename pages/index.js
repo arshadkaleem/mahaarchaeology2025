@@ -58,10 +58,10 @@ const Home = ({ coverData, governmentData, homeSliderData }) => {
             </Link>
 
 
-            <a href="/recruitment/World-Heritage-Desk-Application-2026.pdf" target="_blank" rel="noopener noreferrer" legacyBehavior>
+            <a href="/recruitment/2026/04/MahaSTRIDE PIU – Contractual Recruitment Advertisement.pdf" target="_blank" rel="noopener noreferrer" legacyBehavior>
               <div className="blink flex items-center cursor-pointer">
                 <span className="inner-text text-blue-800">
-                  World Heritage Desk Application Advertisement
+                  MahaSTRIDE PIU – Contractual Recruitment Advertisement
                 </span>
 
 
